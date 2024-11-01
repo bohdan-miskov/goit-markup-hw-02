@@ -47,10 +47,6 @@ address{
     color: #404bbf;
 }
 
-.active-link:active{
-    color: #404bbf;
-}
-
 .main-page {
     background: #2e2f42;
 }
@@ -59,16 +55,17 @@ address{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0,02em;
     text-align: center;
     color: #fff;
 }
 
 .main-page-button {
     font-family: inherit;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: #fff;
     cursor: pointer;
 }
@@ -84,6 +81,7 @@ address{
     line-height: 1.11;
     text-align: center;
     color: #2e2f42;
+    letter-spacing: 0, 02em;
 }
 
 .section-subtitle {
@@ -97,11 +95,19 @@ address{
     background: #f4f4fd;
 }
 
+.team-section-title{
+    text-transform: capitalize;
+}
+
 .teams-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     text-align: center;
 }
+
+.portfolio-section-title{
+    text-transform: capitalize;
+}
+
 
 .footer {
     background: #2e2f42;
