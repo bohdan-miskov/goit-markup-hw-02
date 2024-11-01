@@ -55,7 +55,7 @@ address{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
@@ -81,7 +81,7 @@ address{
     line-height: 1.11;
     text-align: center;
     color: #2e2f42;
-    letter-spacing: 0, 02em;
+    letter-spacing: 0.02em;
 }
 
 .section-subtitle {
